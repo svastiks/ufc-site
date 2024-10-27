@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -7,11 +8,10 @@ const Navbar = () => {
       <a href="" className="logo">UFC HUB</a>
 
       <nav className="navbar">
-        <a href="\" className="">Current Fighters</a>
-        <a href="\" className="">Upcoming events</a>
-        <a href="\" className="">Betting ODDs</a>
-        <a href="\" className="">Twitter News</a>
-        <a href="\" className="">News</a>
+        <a href="/currentfighters" className="">Current Fighters</a>
+        <a href="/upcomingevents" className="">Upcoming events</a>
+        <a href="/odds" className="">Betting ODDs</a>
+        <a href="/news" className="">Twitter News</a>
       </nav>
     </header>
   )
